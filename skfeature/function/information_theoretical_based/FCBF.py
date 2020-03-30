@@ -32,6 +32,7 @@ def fcbf(X, y, **kwargs):
     if 'delta' in kwargs.keys():
         delta = kwargs['delta']
     else:
+        
         # the default value of delta is 0
         delta = 0
 
